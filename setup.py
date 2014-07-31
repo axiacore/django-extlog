@@ -6,7 +6,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-extlog',
-    version='0.1',
+    version='0.2',
     packages=['extlog'],
     include_package_data=True,
     license='MIT',
