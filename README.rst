@@ -25,9 +25,9 @@ Requerements
 Quick Setup
 -----------
 
-Add ``django-extlog`` to your ``INSTALLED_APPS`` setting like this::
+Add ``django_extlog`` to your ``INSTALLED_APPS`` setting like this::
 
     INSTALLED_APPS = (
         ...
-        'django-extlog',
+        'django_extlog',
     )

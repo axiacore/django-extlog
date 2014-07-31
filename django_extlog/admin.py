@@ -6,7 +6,7 @@ from django import forms
 from django.utils.encoding import force_text
 from django.utils.html import format_html
 
-from extlog.models import ExtLog
+from django_extlog.models import ExtLog
 from django_extensions.db.fields.json import JSONField
 
 

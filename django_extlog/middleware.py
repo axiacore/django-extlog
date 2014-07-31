@@ -5,7 +5,7 @@ from django.core import serializers
 from django.contrib.admin.models import LogEntry
 from django.contrib.sessions.models import Session
 
-from extlog.models import ExtLog
+from django_extlog.models import ExtLog
 
 
 class AuditLoggingMiddleware(object):
