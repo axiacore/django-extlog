@@ -52,3 +52,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Configuration files
+*.sublime-project
+*.sublime-workspace
+.idea
