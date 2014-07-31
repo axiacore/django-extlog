@@ -19,7 +19,7 @@ Installing from github:
 Requerements
 ------------
 
-    pip install django-extentions
+    pip install django-extensions
 
 
 Quick Setup
