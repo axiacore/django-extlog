@@ -25,9 +25,17 @@ Requerements
 Quick Setup
 -----------
 
-Add ``django_extlog`` to your ``INSTALLED_APPS`` setting like this::
+1. Add ``django_extlog`` to your ``INSTALLED_APPS`` setting like this::
 
     INSTALLED_APPS = (
         ...
         'django_extlog',
     )
+
+2. Add ``AuditLoggingMiddleware`` to your ``MIDDLEWARE_CLASSES` setting:
+
+
+MIDDLEWARE_CLASSES = (
+    ...
+    'django_extlog.middleware.AuditLoggingMiddleware',
+)
