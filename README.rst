@@ -34,8 +34,7 @@ Quick Setup
 
 2. Add ``AuditLoggingMiddleware`` to your ``MIDDLEWARE_CLASSES` setting:
 
-
-MIDDLEWARE_CLASSES = (
-    ...
-    'django_extlog.middleware.AuditLoggingMiddleware',
-)
+    MIDDLEWARE_CLASSES = (
+        ...
+        'django_extlog.middleware.AuditLoggingMiddleware',
+    )
