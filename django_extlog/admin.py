@@ -24,7 +24,7 @@ class JSONReadonlyTextArea(forms.Textarea):
         return format_html(html)
 
 
-class AuditLogAdmin(admin.ModelAdmin):
+class ExtLogAdmin(admin.ModelAdmin):
 
     list_filter = [
         'user',
@@ -59,7 +59,7 @@ class AuditLogAdmin(admin.ModelAdmin):
         return False
 
     def get_actions(self, request):
-        actions = super(AuditLogAdmin, self).get_actions(request)
+        actions = super(ExtLogAdmin, self).get_actions(request)
         if 'delete_selected' in actions:
             del actions['delete_selected']
         return actions
@@ -77,9 +77,9 @@ class AuditLogAdmin(admin.ModelAdmin):
     def formfield_for_dbfield(self, db_field, **kwargs):
         if db_field.name == 'object_instance':
             kwargs['widget'] = JSONReadonlyTextArea()
-        return super(AuditLogAdmin, self).formfield_for_dbfield(
+        return super(ExtLogAdmin, self).formfield_for_dbfield(
             db_field,
             **kwargs
         )
 
-admin.site.register(AuditLog, AuditLogAdmin)
+admin.site.register(ExtLog, ExtLogAdmin)
