@@ -14,3 +14,20 @@ Installing from pypi (using pip):
 Installing from github:
 
     pip install -e git://github.com/AxiaCore/django-extlog.git#egg=django-extlog
+
+
+Requerements
+------------
+
+    pip install django-extensions
+
+
+Quick Setup
+-----------
+
+Add ``django-extlog`` to your ``INSTALLED_APPS`` setting like this::
+
+    INSTALLED_APPS = (
+        ...
+        'django-extlog',
+    )
