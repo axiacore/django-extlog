@@ -16,7 +16,7 @@ Installing from github:
     pip install -e git://github.com/AxiaCore/django-extlog.git#egg=django-extlog
 
 
-Requerements
+Requirements
 ------------
 
     pip install django-extensions
