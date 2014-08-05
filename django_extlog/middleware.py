@@ -50,7 +50,7 @@ class AuditLoggingMiddleware(object):
     def _save_to_log(self, instance, action, user):
 
         content_type = ContentType.objects.get_for_model(instance)
-        if content_type.app_label != 'audit' and user:
+        if content_type.app_label != 'django_extlog' and user:
             ExtLog.objects.create(
                 object_id=instance.id,
                 app_name=content_type.app_label,
