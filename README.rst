@@ -32,7 +32,7 @@ Quick Setup
         'django_extlog',
     )
 
-2. Add ``AuditLoggingMiddleware`` to your ``MIDDLEWARE_CLASSES` setting:
+2. Add ``AuditLoggingMiddleware`` to your ``MIDDLEWARE_CLASSES`` setting::
 
     MIDDLEWARE_CLASSES = (
         ...
