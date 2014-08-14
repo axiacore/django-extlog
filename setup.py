@@ -14,6 +14,9 @@ setup(
     url='https://github.com/AxiaCore/django-extlog',
     author='Vera Mazhuga',
     author_email='ctrl-alt-delete@live.ru',
+    install_requires=[
+        'django-extensions',
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
