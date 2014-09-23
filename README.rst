@@ -32,3 +32,12 @@ Quick Setup
         ...
         'django_extlog.middleware.AuditLoggingMiddleware',
     )
+
+
+Screenshots
+-----------
+
+.. image:: http://axiacore.github.io/public/img/docs/extlog-admin-list.png
+
+
+.. image:: http://axiacore.github.io/public/img/docs/extlog-admin-detail.png
