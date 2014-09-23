@@ -51,8 +51,9 @@ class AuditLoggingMiddleware(object):
 
         content_type = ContentType.objects.get_for_model(instance)
         if content_type.app_label != 'django_extlog' and user:
+            object_id = instance.id if hasattr(instance, 'id') else 0
             ExtLog.objects.create(
-                object_id=instance.id,
+                object_id=object_id,
                 app_name=content_type.app_label,
                 model_name=content_type.model,
                 action=action,
