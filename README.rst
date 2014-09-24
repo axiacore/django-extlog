@@ -1,6 +1,15 @@
 django-extlog
 =============
 
+.. image:: https://pypip.in/v/django-extlog/badge.png
+    :target: https://crate.io/packages/django-extlog/
+    :alt: Latest PyPI version
+
+.. image:: https://pypip.in/d/django-extlog/badge.png
+    :target: https://crate.io/packages/django-extlog/
+    :alt: Number of PyPI downloads
+
+
 Extended log for Django, tracks changes in values of fields.
 
 
