@@ -1,11 +1,11 @@
 django-extlog
 =============
 
-.. image:: https://pypip.in/v/django-extlog/badge.png
+.. image:: https://img.shields.io/pypi/v/django-extlog.svg
     :target: https://crate.io/packages/django-extlog/
     :alt: Latest PyPI version
 
-.. image:: https://pypip.in/d/django-extlog/badge.png
+.. image:: https://img.shields.io/pypi/dm/django-extlog.svg
     :target: https://crate.io/packages/django-extlog/
     :alt: Number of PyPI downloads
 
