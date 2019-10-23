@@ -1,2 +1,2 @@
 # Framework
-Django==1.6.5
+Django==1.11.23
